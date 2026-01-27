@@ -9,3 +9,8 @@ I am building everything from the basics and I am not very good at coding so thi
 Build a particle system to simulate point particles in Newtonian gravity. This will involve the two body and the many body problems.
 Next I aim to add charged particles and simulate them with the gravitational fields to see how they interact in the Newtonian setting.
 Then I want to move to the Einstein gravity case with the Schwarzchild black hole and I want to simulate how massless and massive particles move around these black holes.
+
+## To-Do List
+
+- [ ] Add the gravitational field that is caused by the particles.
+- [ ] Simulate the motion of the particles.
