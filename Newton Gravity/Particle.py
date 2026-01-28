@@ -36,6 +36,6 @@ class Particle():
                 return 0
             
         if self.y > other.y:
-            return 2*np.pi + np.arctan((other.y - self.y)/(other.x - self.x))
+            return (np.arctan((other.y - self.y)/(other.x - self.x))) % (2 * np.pi)
         elif self.y < other.y:
             return np.arctan((self.y - other.y)/(other.x - self.x)) + np.pi/2
